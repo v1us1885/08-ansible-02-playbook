@@ -1,0 +1,8 @@
+---
+clickhouse_version: "22.3.3.44"
+clickhouse_packages:
+  - "clickhouse-client-{{ clickhouse_version }}.noarch.rpm"
+  - "clickhouse-server-{{ clickhouse_version }}.noarch.rpm"
+  - "clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
+vector_version: "0.40.0"
+vector_arch: "x86_64"
